@@ -156,6 +156,7 @@ a, a:hover{
 	padding: 35px 35px;
 	text-align: center;
 }
+
 .inner-feature .icon{
 	width: 110px ;
 	height: 110px ;
@@ -163,12 +164,26 @@ a, a:hover{
 	margin: 0px auto;
 	border-radius: 100%;
 	border: 1px solid #eee;
+	transition: 0.5s;
 }
+.inner-feature:hover .icon{
+border-color:#008dd5 ;
+
+}
+
 .inner-feature h4{
 	font-size: 22px;
 	font-weight: 600;
 	color: #000;
+	transition: 0.5s;
 }
+
+.inner-feature:hover h4{
+	font-size: 25px;
+	font-weight: 700;
+	color: #008dd5;
+}
+
 .inner-feature p{
 	font-size: 14px;
 	font-weight: 40 0;
