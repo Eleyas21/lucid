@@ -7,6 +7,8 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px ;
 	line-height: 24px;
+	overflow-x: hidden;
+
 }
 h1, h2, h3 h4, h5, h6{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -473,6 +475,9 @@ border-color:#008dd5 ;
 	padding: 50px 60px 40px;
 	margin-top: 40px ;
 	background: #191919;
+	position: relative;
+	margin-bottom: -70px;
+	z-index: 1;
 }
 .main-form .form-control{
 	width: 100%;
